@@ -3,7 +3,7 @@ ini_set('display_errors', '0');
 //把下面的资料改成您的
 
 //网站名字
-$siteName='DouDouTube';
+$siteName='YouTube';
 
 //youtube API V3 KEY:
 
