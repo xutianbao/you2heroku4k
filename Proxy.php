@@ -291,7 +291,7 @@ $scheme = parse_url($url, PHP_URL_SCHEME);
 if (empty($scheme)) {
   //Assume that any supplied URLs starting with // are HTTP URLs.
   if (strpos($url, "//") === 0) {
-    $url = "http:" . $url;
+    $url = "https:" . $url;
   }
 } else if (!preg_match("/^https?$/i", $scheme)) {
     die('Error: Detected a "' . $scheme . '" URL. miniProxy exclusively supports http[s] URLs.');
